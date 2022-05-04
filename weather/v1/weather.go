@@ -39,3 +39,8 @@ func PredictAtCoords(lat, long float64) (Prediction, error) {
 
 	return Unknown, nil
 }
+
+// GetVersion returns the package version
+func GetVersion() string {
+	return "v1"
+}
