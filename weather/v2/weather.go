@@ -56,3 +56,8 @@ func Predict(loc Locator) (Prediction, error) {
 
 	return Unknown, nil
 }
+
+// GetVersion returns the package version
+func GetVersion() string {
+	return "v2"
+}
